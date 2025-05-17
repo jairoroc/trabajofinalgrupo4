@@ -14,7 +14,9 @@
         <link rel="stylesheet" type="text/css" href="cubeportfolio/css/cubeportfolio.min.css">
         <link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
     
     <body>
         <div id="preloader">
@@ -241,7 +243,7 @@
                             <div class="row align-items-center">
                             <div class="col-lg-8 mr-auto pb50 ml-auto">
                                 <h2 class="h1 font300 text-white">
-                                    Nosotros <span class="text-primary">so</span>mos.
+                                    Nosotros somos<span class="text-primary"></span>
                                 </h2>
                                 <p class="lead text-white-gray">
                                     Mente Libre Ecoturismo Accesible promueve el derecho al ocio para todas las personas, ofreciendo experiencias diseñadas desde el diseño universal para disfrutar la naturaleza de forma inclusiva y segura.
@@ -256,125 +258,47 @@
                         </div>
                         </div>
                     </div>
-                    <div id="servicios" class=" pt100">
+                    <div id="servicios" class="pt100 pb100 bg-light">
                         <div class="container">
-                            <h2 class="section-title mb70">Nuestros ultimos trabajos</h2>
-                            <!--                            <div class="clearfix">
-                                                            <div id="js-filters-lightbox-gallery" class="cbp-l-filters-button cbp-l-filters-left">
-                                                                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
-                                                                <div data-filter=".graphic" class="cbp-filter-item">Graphic</div>
-                                                                <div data-filter=".logos" class="cbp-filter-item">Logo</div>
-                                                                <div data-filter=".motion" class="cbp-filter-item">Motion</div>
-                                                            </div>
-                                                        </div>-->
+                          <h2 class="section-title mb70 text-center">Nuestros últimos trabajos</h2>
 
+                          <div id="trabajosCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/imagen2.jpg" class="d-block w-100" alt="Trabajo 1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen3.jpg" class="d-block w-100" alt="Trabajo 2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen4.jpg" class="d-block w-100" alt="Trabajo 3">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen5.jpg" class="d-block w-100" alt="Trabajo 4">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen6.jpg" class="d-block w-100" alt="Trabajo 5">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen7.jpg" class="d-block w-100" alt="Trabajo 6">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/imagen8.jpg" class="d-block w-100" alt="Trabajo 7">
+                              </div>
+                            </div>
+
+                            <!-- Controles -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#trabajosCarousel" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#trabajosCarousel" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Siguiente</span>
+                            </button>
+                          </div>
                         </div>
-                        <div id="js-grid-lightbox-gallery" class="cbp">
-                            <div class="cbp-item web-design graphic print motion">
-                                <a href="images/imagen2.jpg" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen2.jpg" alt="" style="width: 1000px; height: auto;">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item web-design logos identity graphic">
-                                <a href="images/imagen3.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen3.jpg" alt="" style="width: 1000px; height: auto;">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item graphic print identity">
-                                <a href="images/imagen4.jpg" class="cbp-caption cbp-lightbox" data-title="WhereTO App<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen4.jpg" alt="">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item web-design motion logos">
-                                <a href="images/imagen5.jpg" class="cbp-caption cbp-lightbox" data-title="iDevices<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen5.jpg" alt="">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item identity graphic print">
-                                <a href="images/imagen6.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen6.jpg" alt="">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item motion print logos web-design">
-                                <a href="images/imagen7.jpg" class="cbp-caption cbp-lightbox" data-title="Remind~Me Widget<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen7.jpg" alt="">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cbp-item graphic logos">
-                                <a href="images/imagen8.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu" rel="nofollow">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="images/imagen8.jpg" alt="">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignLeft">
-                                            <div class="cbp-l-caption-body">
-                                                <div class="cbp-l-caption-title"></div>
-                                                <div class="cbp-l-caption-desc"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
                             <!--<div class="cbp-item identity print logos motion">
                                 <a href="images/w8.jpg" class="cbp-caption cbp-lightbox" data-title="Digital Menu<br>by Cosmin Capitanu" rel="nofollow">
                                     <div class="cbp-caption-defaultWrap">
@@ -538,6 +462,7 @@
         <script type="text/javascript" src="js/master-slider-home.js"></script> 
         <!-- load cubeportfolio -->
         <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="js/portfolio-2col-custom.js"></script> 
+        <script type="text/javascript" src="js/portfolio-2col-custom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
