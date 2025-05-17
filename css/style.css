@@ -1477,7 +1477,7 @@ Footer style
       border: 0px;
       cursor: pointer;
       box-shadow: none;
-      color: #62d3ad;
+      color: #4CA146;
       background-color: transparent;
       padding: 0px;
       z-index: 9999; }
@@ -1521,8 +1521,6 @@ Footer style
     margin-top:10px;
 }
 
-
-
-
-
-
+.fondo-nosotros {
+  background-color: #14496B;
+}
