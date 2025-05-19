@@ -1,3 +1,33 @@
-El proyecto consiste en el desarrollo de un sitio web para la empresa “Mente Libre Ecoturismo Accesible”, cuyo objetivo es ofrecer experiencias turísticas inclusivas para personas con discapacidad y grupos vulnerables. A lo largo del proyecto, se trabajó en distintas etapas que incluyen la recolección de requerimientos mediante una reunión con el emprendedor, el diseño inicial del mockup en HTML, la mejora visual utilizando CSS, y finalmente, la migración del contenido a una plantilla.
+Mente Libre Ecoturismo Accesible – Proyecto Final Diseño Web
+IPLACEX – Asignatura: Diseño Web
+Semestre: Primer semestre 2025
+Grupo: 4
 
-El sitio web incorpora secciones como misión, visión, galería, información de servicios, redes sociales y contacto, con un fuerte enfoque en la accesibilidad digital (lectores de pantalla, contraste adecuado y navegación inclusiva). El trabajo fue realizado en equipo, permitiendo aplicar conocimientos prácticos de diseño web, CSS, y JavaScript básico, con énfasis en la compatibilidad multiplataforma y la experiencia del usuario.
+Integrantes del Grupo
+
+- Franco Castillo
+- Matías Castro
+- Jairo Castro
+- Manuel Castro
+- Marcelo Cáceres
+
+Descripción del Proyecto
+
+Este sitio web fue desarrollado para el emprendimiento "Mente Libre Ecoturismo Accesible", una organización enfocada en brindar experiencias turísticas inclusivas a personas en situación de discapacidad y grupos vulnerables.
+El objetivo principal fue diseñar una página web accesible, responsiva y visualmente clara, que permitiera mostrar los servicios ofrecidos por la organización, reflejar sus valores y facilitar la comunicación con los usuarios.
+
+Tecnologías Utilizadas
+- HTML
+- CSS
+- Flexbox
+- JavaScript
+- Netbeans
+- Template Architecture
+- Visual Studio Code
+- Git y GitHub
+- Netlify
+
+GitHub: https://github.com/jairoroc/trabajofinalgrupo4
+
+Sitio Web Desplegado en Netlify: https://teal-sable-96a139.netlify.app
+
