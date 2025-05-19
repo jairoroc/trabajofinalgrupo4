@@ -1,6 +1,5 @@
 Mente Libre Ecoturismo Accesible – Proyecto Final Diseño Web
 IPLACEX – Asignatura: Diseño Web
-Semestre: Primer semestre 2025
 Grupo: 4
 
 Integrantes del Grupo
@@ -29,5 +28,5 @@ Tecnologías Utilizadas
 
 GitHub: https://github.com/jairoroc/trabajofinalgrupo4
 
-Sitio Web Desplegado en Netlify: https://teal-sable-96a139.netlify.app
+Sitio Web Desplegado en Netlify: https://teal-sable-96a139.netlify.app/
 
